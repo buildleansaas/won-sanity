@@ -25,7 +25,7 @@ export const scheduleItem = {
             title: "Time Slots",
             name: "timeslots",
             type: "array",
-            of: [timeSlot]
+            of: [{ type: 'timeslot' }]
         }
     ]
 }

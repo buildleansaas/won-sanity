@@ -4,12 +4,14 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import { scheduleItem } from "./_scheduleItem"
 import { event } from "./_event"
 import { location } from "./_location"
+import { timeslot } from "./_timeSlot"
 
 export default createSchema({
   name: 'default',
   types: schemaTypes.concat([
     scheduleItem,
     event,
-    location
+    location,
+    timeslot
   ])
 })
