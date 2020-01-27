@@ -6,6 +6,12 @@ export const event = {
     type: "document",
     fields: [
         {
+            title: "Active",
+            name: "active",
+            type: "boolean",
+            layout: "true"
+        },
+        {
             title: "Title",
             name: "title",
             type: "string",
