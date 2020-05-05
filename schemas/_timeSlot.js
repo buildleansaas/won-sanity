@@ -1,5 +1,3 @@
-import { location } from "./_location";
-
 export const timeslot = {
   title: "Time Slot",
   name: "timeslot",
