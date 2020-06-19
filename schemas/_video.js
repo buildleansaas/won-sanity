@@ -4,11 +4,11 @@ export const video = {
   type: "document",
   fields: [
     {
-      title: "Youtube Embed Link",
-      name: "embedLink",
+      title: "Youtube Embed Code",
+      name: "embed",
       type: "string",
       description:
-        "Go to the Youtube video, then click 'Share', click 'Embed',  and select the link within the quotations after 'src', and hit CTRL+C to copy it as the mouse is selected on it. If this is confusing, I can do :)",
+        "Go to the youtube video, and copy JUST the code at the end of the URL, and paste it here.",
     },
     {
       title: "Title",
