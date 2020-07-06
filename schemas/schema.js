@@ -7,7 +7,16 @@ import { location } from "./_location";
 import { timeslot } from "./_timeSlot";
 import { video } from "./_video";
 
+import { slideshow } from "./_slideshow";
+
 export default createSchema({
   name: "default",
-  types: schemaTypes.concat([scheduleItem, event, location, timeslot, video]),
+  types: schemaTypes.concat([
+    scheduleItem,
+    event,
+    location,
+    timeslot,
+    video,
+    slideshow,
+  ]),
 });
