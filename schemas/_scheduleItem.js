@@ -22,6 +22,11 @@ export const scheduleItem = {
       type: "text",
     },
     {
+      title: "Link",
+      name: "link",
+      type: "string",
+    },
+    {
       title: "Time Slots",
       name: "timeslots",
       type: "array",
